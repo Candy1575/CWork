@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    
+    <LinearLayout 
+        android:id="@+id/show_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        ></LinearLayout>
+    <RadioGroup 
+        android:id="@+id/daohan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+        
+        <RadioButton 
+            android:id="@+id/seek"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+     		android:gravity="center_horizontal"
+     		android:checked="true"
+     		android:text="寻找"
+            />
+        <RadioButton 
+            android:id="@+id/news"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+     		android:gravity="center_horizontal"
+     		android:text="消息"
+            />
+        <RadioButton 
+            android:id="@+id/trend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+     		android:gravity="center_horizontal"
+     		android:text="动态"
+            />
+        <RadioButton 
+            android:id="@+id/me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+     		android:gravity="center_horizontal"
+     		android:text="我的"
+            />
+
+    </RadioGroup>
+    
+
+</RelativeLayout>
